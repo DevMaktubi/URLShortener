@@ -4,11 +4,11 @@ Caso você queira replicar no seu computador, basta apenas clonar este repositó
 
 ## Rotas utilizadas
  - POST
-   - /api/url/shorten
+   - /api/url/shorten  
    Corpo da requisição: 
      - longURL: String  (link original que deseja encurtar)
  - GET
-   - /:code
+   - /:code  
      Parâmetros da requisição:
        - code: String (short id gerado pelo encurtador)
 
