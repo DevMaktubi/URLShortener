@@ -22,6 +22,7 @@ Caso você queira replicar no seu computador, basta apenas clonar este repositó
 
  - NodeJS
  - MongoDB
+ - Mongoose
  - Express
  - Javascript
  
