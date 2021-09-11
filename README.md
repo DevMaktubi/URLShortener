@@ -5,18 +5,18 @@ Caso você queira replicar no seu computador, basta apenas clonar este repositó
 ## Rotas utilizadas
  - POST
    - /api/url/shorten  
-   Rota utilizada para criar um novo link encurtado
+   Rota utilizada para criar um novo link encurtado  
    Corpo da requisição: 
      - longURL: String  (link original que deseja encurtar)
  - GET
    - /:code  
-     Rota utilizada para acessar um link encurtado e ser redirecionado para o link original
+     Rota utilizada para acessar um link encurtado e ser redirecionado para o link original  
      Parâmetros da requisição:
        - code: String (short id gerado pelo encurtador)
    - /random  
-     Rota utilizada para ser redirecionado para um link encurtado aleatório
+     Rota utilizada para ser redirecionado para um link encurtado aleatório  
    - /random/api  
-     Rota utilizada para o receber um link encurtado aleatório por JSON
+     Rota utilizada para o receber um link encurtado aleatório por JSON  
 
 ## Tecnologias utilizadas
 
