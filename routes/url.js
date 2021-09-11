@@ -8,7 +8,6 @@ const Url = require('../models/UrlModel')
 
 const baseUrl = process.env.NODE_ENV === 'dev' ? 'http://localhost:5000' : process.env.BASE_URL
 
-console.log(baseUrl)
 
 router.post('/shorten', async(req,res) => {
     const {longURL} = req.body
@@ -29,8 +28,6 @@ router.post('/shorten', async(req,res) => {
                 res.json(url)
             }else {
                 const shortURL = `${baseUrl}/${urlCode}`
-                console.log(shortURL)
-                console.log(longURL)
     
                 url = new Url({
                     longURL,

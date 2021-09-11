@@ -11,7 +11,7 @@ connection.on('error', () => console.log('Erro ao conectar com o banco.'))
 app.use(express.json({
     extended: false
 }))
-
+app.use('/random', require('./routes/random'))
 app.use('/', require('./routes/redirect'))
 app.use('/api/url', require('./routes/url'))
 

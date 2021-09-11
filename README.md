@@ -11,6 +11,8 @@ Caso você queira replicar no seu computador, basta apenas clonar este repositó
    - /:code  
      Parâmetros da requisição:
        - code: String (short id gerado pelo encurtador)
+   - /random  
+   - /random/api  
 
 ## Tecnologias utilizadas
 
@@ -25,7 +27,7 @@ Caso você queira replicar no seu computador, basta apenas clonar este repositó
 ### [Demo do projeto no Heroku (Apenas para requisições, sem interface visual)](https://url-shortener-api-devmaktubi.herokuapp.com/)
 
 ## Roadmap de ideias a serem feitas
-- Requisição para link aleatório do banco, como algo para passar  o tempo ❌
+- Requisição para link aleatório do banco, como algo para passar  o tempo ✔
 - Criação de uma interface para a API ❌
 - Criação de um bot de Discord para interagir com a API ❌
 
